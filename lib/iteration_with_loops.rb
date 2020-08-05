@@ -16,4 +16,4 @@ def find_min_in_nested_arrays(array_of_daily_temperatures)
    row_index += 1
  end
  return minimum_values
-end
+ end
