@@ -10,10 +10,9 @@ def find_min_in_nested_arrays(array_of_daily_temperatures)
        lowest_number = array_of_daily_temperatures[row_index][element_index]
      end
       element_index += 1
-     end
+    end
       minimum_values << lowest_number
+      row_index += 1
    end
-   row_index += 1
- end
  return minimum_values
- end
+end
